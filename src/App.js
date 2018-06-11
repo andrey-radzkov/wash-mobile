@@ -6,9 +6,9 @@ import configureStore from './store/configureStore'
 import TabRouter from './TabRouter'
 import uiTheme from './uiTheme'
 
-const store = configureStore();
+const store = configureStore()
 
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
     return (
       <Provider store={store}>
